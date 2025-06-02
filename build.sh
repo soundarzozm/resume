@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/env zsh
 
-docker build -t sb2nov/latex .
-docker run --rm -i -v "$PWD":/data sb2nov/latex pdflatex sourabh_bajaj_resume.tex
+docker build -t resume/latex .
+docker run --rm -i -v "$PWD":/data resume/latex pdflatex soundar_murugan_resume.tex
